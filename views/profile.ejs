@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/sidenavbar.css">
+    <link rel="stylesheet" href="/profile.css">
+</head>
+
+<body>
+    <section>
+        <aside class="side-navbar">
+            <img src="https://cdn.worldvectorlogo.com/logos/instagram-1.svg" alt="">
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Explore</li>
+                <li>Reels</li>
+                <li>Messages</li>
+                <li>Notifications</li>
+                <li>Create</li>
+                <li>Profile</li>
+                <li>More</li>
+                <li>Also from Meta</li>
+            </ul>
+        </aside>
+        <main>
+            <div class="profile-details">
+                <div class="profile-img">
+                   <img src="<%- data.profile_photo %>" alt="profile picture">
+                </div>
+                <div class="profile-count">
+                    <div class="bttns">
+                        <h2>
+                            <%= data.username %>
+                        </h2>
+                        <button>Follow</button>
+                        <button>Message</button>
+                    </div>
+                    <div class="bttns">
+                        <p>Posts <%= data.number_of_posts %>
+                        </p>
+                        <p>Followers <%= data.followers %>
+                        </p>
+                        <p>Following <%= data.following %>
+                        </p>
+                    </div>
+                    <div class="bio">
+                        <p>
+                            <%= data.bio %>
+                        </p>
+                        <a href="<%= data.website %>" target="_blank" rel="">
+                            <%= data.website %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="feed">
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>

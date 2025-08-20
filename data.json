@@ -1,0 +1,97 @@
+{
+  "accounts": [
+    {
+      "name": "Facebook",
+      "username": "facebook",
+      "bio": "Connect with friends and the world around you.",
+      "profile_photo": "https://www.designboom.com/wp-content/uploads/2023/09/facebook-new-logo-change-designboom-02.jpg",
+      "followers": 25000000,
+      "following": 50,
+      "number_of_posts": 3,
+      "website": "https://www.facebook.com",
+      "is_verified": true,
+      "posts": [
+        {
+          "image": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-sulimansallehi-1704488.jpg&fm=jpg",
+          "likes": 5000,
+          "comments": 300,
+          "caption": "Celebrating our 25M followers!"
+        },
+        {
+          "image": "https://i.pinimg.com/736x/49/d4/9a/49d49afa83d1d79be2e23cd58cd8273e.jpg",
+          "likes": 4500,
+          "comments": 250,
+          "caption": "New features coming soon!"
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg=",
+          "likes": 6000,
+          "comments": 400,
+          "caption": "Sharing moments that matter."
+        }
+      ]
+    },
+    {
+      "name": "Apple",
+      "username": "apple",
+      "bio": "Think different.",
+      "profile_photo": "https://via.placeholder.com/150x150?text=Apple",
+      "followers": 35000000,
+      "following": 30,
+      "number_of_posts": 3,
+      "website": "https://www.apple.com",
+      "is_verified": true,
+      "posts": [
+        {
+          "image": "https://via.placeholder.com/800x800?text=Apple+Post+1",
+          "likes": 8000,
+          "comments": 500,
+          "caption": "Innovation that inspires."
+        },
+        {
+          "image": "https://via.placeholder.com/800x800?text=Apple+Post+2",
+          "likes": 9500,
+          "comments": 600,
+          "caption": "Discover the new iPhone."
+        },
+        {
+          "image": "https://via.placeholder.com/800x800?text=Apple+Post+3",
+          "likes": 7200,
+          "comments": 400,
+          "caption": "Designed for you."
+        }
+      ]
+    },
+    {
+      "name": "Samsung",
+      "username": "samsung",
+      "bio": "Inspire the world, create the future.",
+      "profile_photo": "https://via.placeholder.com/150x150?text=Samsung",
+      "followers": 27000000,
+      "following": 40,
+      "number_of_posts": 3,
+      "website": "https://www.samsung.com",
+      "is_verified": true,
+      "posts": [
+        {
+          "image": "https://via.placeholder.com/800x800?text=Samsung+Post+1",
+          "likes": 7000,
+          "comments": 350,
+          "caption": "Experience innovation in every device."
+        },
+        {
+          "image": "https://via.placeholder.com/800x800?text=Samsung+Post+2",
+          "likes": 6500,
+          "comments": 300,
+          "caption": "Galaxy S23 is here."
+        },
+        {
+          "image": "https://via.placeholder.com/800x800?text=Samsung+Post+3",
+          "likes": 8000,
+          "comments": 450,
+          "caption": "Empowering your world."
+        }
+      ]
+    }
+  ]
+}

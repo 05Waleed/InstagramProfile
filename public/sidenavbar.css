@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.side-navbar {
+    min-width: 15rem;
+    height: 100%;
+    padding: 1rem;
+}
+
+.side-navbar img {
+    width: 150px;
+    padding-left: 0.75rem;
+
+}
+
+.side-navbar ul {
+    list-style: none;
+}
+
+.side-navbar ul li {
+    margin: 0.75rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
